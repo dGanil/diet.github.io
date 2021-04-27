@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The diet</title>
+
+	<!-- Styles -->
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Fonts -->
+
+	<link rel="stylesheet" href="fonts/fugue.css">
+
+	<link rel="stylesheet" href="fonts/proxima.css">
+
+
+
+
+
+
+</head>
+<body>
+	<div class="content">
+		<header class="header">
+			<div class="container">
+				<div class="header__main">
+					<div class="flex-btw">
+						<a href="#" class="logo-link">
+							<img src="img/logo.png" alt="" class="logo">
+						</a>
+						
+						<div class="settings">
+							<div class="lang">
+								<div class="lang__current">
+									<span class="lang__active">
+										<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M14.8017 2.75867H1.19828C0.536469 2.75867 0 3.29514 0 3.95695V6.25292H16V3.95695C16 3.29514 15.4635 2.75867 14.8017 2.75867Z" fill="#F5F5F5"/>
+											<path d="M0 12.0431C0 12.7049 0.536469 13.2414 1.19828 13.2414H14.8017C15.4635 13.2414 16 12.7049 16 12.0431V9.74719H0V12.0431Z" fill="#EA4D33"/>
+											<path d="M16 6.25281H0V9.74687H16V6.25281Z" fill="#2153CC"/>
+										</svg>
+									</span>
+									<span class="lang__carret">
+										<svg width="6" height="3" viewBox="0 0 6 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M3 3L0.401924 -4.89399e-07L5.59808 -3.51373e-08L3 3Z" fill="#00BA10"/>
+										</svg>
+									</span>
+								</div>
+								<div class="lang__list">
+									<a href="#" class="lang__link">
+										<span class="lang__icon">
+											<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M14.8017 2.75867H1.19828C0.536469 2.75867 0 3.29514 0 3.95695V6.25292H16V3.95695C16 3.29514 15.4635 2.75867 14.8017 2.75867Z" fill="#F5F5F5"/>
+												<path d="M0 12.0431C0 12.7049 0.536469 13.2414 1.19828 13.2414H14.8017C15.4635 13.2414 16 12.7049 16 12.0431V9.74719H0V12.0431Z" fill="#EA4D33"/>
+												<path d="M16 6.25281H0V9.74687H16V6.25281Z" fill="#2153CC"/>
+											</svg>
+										</span>
+										<span class="lang__text">Русский</span>
+									</a>
+									<a href="#" class="lang__link">
+										<span class="lang__icon">
+											<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M14.8017 2.75867H1.19828C0.536469 2.75867 0 3.29514 0 3.95695V6.25292H16V3.95695C16 3.29514 15.4635 2.75867 14.8017 2.75867Z" fill="#F5F5F5"/>
+												<path d="M0 12.0431C0 12.7049 0.536469 13.2414 1.19828 13.2414H14.8017C15.4635 13.2414 16 12.7049 16 12.0431V9.74719H0V12.0431Z" fill="#EA4D33"/>
+												<path d="M16 6.25281H0V9.74687H16V6.25281Z" fill="#2153CC"/>
+											</svg>
+										</span>
+										<span class="lang__text">English</span>
+									</a>
+
+									<a href="#" class="lang__link">
+										<span class="lang__icon">
+											<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M14.8017 2.75867H1.19828C0.536469 2.75867 0 3.29514 0 3.95695V6.25292H16V3.95695C16 3.29514 15.4635 2.75867 14.8017 2.75867Z" fill="#F5F5F5"/>
+												<path d="M0 12.0431C0 12.7049 0.536469 13.2414 1.19828 13.2414H14.8017C15.4635 13.2414 16 12.7049 16 12.0431V9.74719H0V12.0431Z" fill="#EA4D33"/>
+												<path d="M16 6.25281H0V9.74687H16V6.25281Z" fill="#2153CC"/>
+											</svg>
+										</span>
+										<span class="lang__text">Deutsch</span>
+									</a>
+
+									<a href="#" class="lang__link">
+										<span class="lang__icon">
+											<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M14.8017 2.75867H1.19828C0.536469 2.75867 0 3.29514 0 3.95695V6.25292H16V3.95695C16 3.29514 15.4635 2.75867 14.8017 2.75867Z" fill="#F5F5F5"/>
+												<path d="M0 12.0431C0 12.7049 0.536469 13.2414 1.19828 13.2414H14.8017C15.4635 13.2414 16 12.7049 16 12.0431V9.74719H0V12.0431Z" fill="#EA4D33"/>
+												<path d="M16 6.25281H0V9.74687H16V6.25281Z" fill="#2153CC"/>
+											</svg>
+										</span>
+										<span class="lang__text">Español</span>
+									</a>
+
+
+									<a href="#" class="lang__link">
+										<span class="lang__icon">
+											<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M14.8017 2.75867H1.19828C0.536469 2.75867 0 3.29514 0 3.95695V6.25292H16V3.95695C16 3.29514 15.4635 2.75867 14.8017 2.75867Z" fill="#F5F5F5"/>
+												<path d="M0 12.0431C0 12.7049 0.536469 13.2414 1.19828 13.2414H14.8017C15.4635 13.2414 16 12.7049 16 12.0431V9.74719H0V12.0431Z" fill="#EA4D33"/>
+												<path d="M16 6.25281H0V9.74687H16V6.25281Z" fill="#2153CC"/>
+											</svg>
+										</span>
+										<span class="lang__text">Français</span>
+									</a>
+
+									<a href="#" class="lang__link">
+										<span class="lang__icon">
+											<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M14.8017 2.75867H1.19828C0.536469 2.75867 0 3.29514 0 3.95695V6.25292H16V3.95695C16 3.29514 15.4635 2.75867 14.8017 2.75867Z" fill="#F5F5F5"/>
+												<path d="M0 12.0431C0 12.7049 0.536469 13.2414 1.19828 13.2414H14.8017C15.4635 13.2414 16 12.7049 16 12.0431V9.74719H0V12.0431Z" fill="#EA4D33"/>
+												<path d="M16 6.25281H0V9.74687H16V6.25281Z" fill="#2153CC"/>
+											</svg>
+										</span>
+										<span class="lang__text">Italiano</span>
+									</a>
+
+
+									<a href="#" class="lang__link">
+										<span class="lang__icon">
+											<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M14.8017 2.75867H1.19828C0.536469 2.75867 0 3.29514 0 3.95695V6.25292H16V3.95695C16 3.29514 15.4635 2.75867 14.8017 2.75867Z" fill="#F5F5F5"/>
+												<path d="M0 12.0431C0 12.7049 0.536469 13.2414 1.19828 13.2414H14.8017C15.4635 13.2414 16 12.7049 16 12.0431V9.74719H0V12.0431Z" fill="#EA4D33"/>
+												<path d="M16 6.25281H0V9.74687H16V6.25281Z" fill="#2153CC"/>
+											</svg>
+										</span>
+										<span class="lang__text">Nederlands</span>
+									</a>
+
+
+									<a href="#" class="lang__link">
+										<span class="lang__icon">
+											<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M14.8017 2.75867H1.19828C0.536469 2.75867 0 3.29514 0 3.95695V6.25292H16V3.95695C16 3.29514 15.4635 2.75867 14.8017 2.75867Z" fill="#F5F5F5"/>
+												<path d="M0 12.0431C0 12.7049 0.536469 13.2414 1.19828 13.2414H14.8017C15.4635 13.2414 16 12.7049 16 12.0431V9.74719H0V12.0431Z" fill="#EA4D33"/>
+												<path d="M16 6.25281H0V9.74687H16V6.25281Z" fill="#2153CC"/>
+											</svg>
+										</span>
+										<span class="lang__text">Polski</span>
+									</a>
+
+
+
+
+									<a href="#" class="lang__link">
+										<span class="lang__icon">
+											<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M14.8017 2.75867H1.19828C0.536469 2.75867 0 3.29514 0 3.95695V6.25292H16V3.95695C16 3.29514 15.4635 2.75867 14.8017 2.75867Z" fill="#F5F5F5"/>
+												<path d="M0 12.0431C0 12.7049 0.536469 13.2414 1.19828 13.2414H14.8017C15.4635 13.2414 16 12.7049 16 12.0431V9.74719H0V12.0431Z" fill="#EA4D33"/>
+												<path d="M16 6.25281H0V9.74687H16V6.25281Z" fill="#2153CC"/>
+											</svg>
+										</span>
+										<span class="lang__text">Português</span>
+									</a>
+
+									<a href="#" class="lang__link">
+										<span class="lang__icon">
+											<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M14.8017 2.75867H1.19828C0.536469 2.75867 0 3.29514 0 3.95695V6.25292H16V3.95695C16 3.29514 15.4635 2.75867 14.8017 2.75867Z" fill="#F5F5F5"/>
+												<path d="M0 12.0431C0 12.7049 0.536469 13.2414 1.19828 13.2414H14.8017C15.4635 13.2414 16 12.7049 16 12.0431V9.74719H0V12.0431Z" fill="#EA4D33"/>
+												<path d="M16 6.25281H0V9.74687H16V6.25281Z" fill="#2153CC"/>
+											</svg>
+										</span>
+										<span class="lang__text">Türkçe</span>
+									</a>
+
+									<a href="#" class="lang__link">
+										<span class="lang__icon">
+											<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M14.8017 2.75867H1.19828C0.536469 2.75867 0 3.29514 0 3.95695V6.25292H16V3.95695C16 3.29514 15.4635 2.75867 14.8017 2.75867Z" fill="#F5F5F5"/>
+												<path d="M0 12.0431C0 12.7049 0.536469 13.2414 1.19828 13.2414H14.8017C15.4635 13.2414 16 12.7049 16 12.0431V9.74719H0V12.0431Z" fill="#EA4D33"/>
+												<path d="M16 6.25281H0V9.74687H16V6.25281Z" fill="#2153CC"/>
+											</svg>
+										</span>
+										<span class="lang__text">Українська</span>
+									</a>
+
+									<a href="#" class="lang__link">
+										<span class="lang__icon">
+											<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M14.8017 2.75867H1.19828C0.536469 2.75867 0 3.29514 0 3.95695V6.25292H16V3.95695C16 3.29514 15.4635 2.75867 14.8017 2.75867Z" fill="#F5F5F5"/>
+												<path d="M0 12.0431C0 12.7049 0.536469 13.2414 1.19828 13.2414H14.8017C15.4635 13.2414 16 12.7049 16 12.0431V9.74719H0V12.0431Z" fill="#EA4D33"/>
+												<path d="M16 6.25281H0V9.74687H16V6.25281Z" fill="#2153CC"/>
+											</svg>
+										</span>
+										<span class="lang__text">Čeština</span>
+									</a>
+
+									<a href="#" class="lang__link">
+										<span class="lang__icon">
+											<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M14.8017 2.75867H1.19828C0.536469 2.75867 0 3.29514 0 3.95695V6.25292H16V3.95695C16 3.29514 15.4635 2.75867 14.8017 2.75867Z" fill="#F5F5F5"/>
+												<path d="M0 12.0431C0 12.7049 0.536469 13.2414 1.19828 13.2414H14.8017C15.4635 13.2414 16 12.7049 16 12.0431V9.74719H0V12.0431Z" fill="#EA4D33"/>
+												<path d="M16 6.25281H0V9.74687H16V6.25281Z" fill="#2153CC"/>
+											</svg>
+										</span>
+										<span class="lang__text">Ελληνικά</span>
+									</a>
+								</div>
+							</div>
+							<div class="menu">
+								<span class="menu__icon" id="menuBtn">
+									<svg id="hamburger" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect x="4" y="4" width="16" height="2" rx="1" fill="#00BA10"/>
+										<rect x="4" y="11" width="16" height="2" rx="1" fill="#00BA10"/>
+										<rect x="4" y="18" width="16" height="2" rx="1" fill="#00BA10"/>
+									</svg>
+
+									<svg class="cross" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M18 6L6 18" stroke="#00BA10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M6 6L18 18" stroke="#00BA10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</span>
+
+								<nav class="nav">
+									<a href="#" class="nav__link">Часто задаваемые вопросы</a>
+									<a href="#" class="nav__link">Способы оплаты</a>
+									<a href="#" class="nav__link">Возврат</a>
+									<a href="#" class="nav__link">Публичная оферта</a>
+									<a href="#" class="nav__link">Обработка персональных данных</a>
+									<a href="#" class="nav__link">Согласие на получение рассылки</a>
+									<a href="#" class="nav__link">Отписаться от платных услуг</a>
+									<button class="nav__link nav__link_lang menu-lang" type="button">
+										<div class="menu-lang__left">
+											<span class="menu-lang__flag">
+												<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M14.8017 2.75854H1.19828C0.536469 2.75854 0 3.29501 0 3.95682V6.25279H16V3.95682C16 3.29501 15.4635 2.75854 14.8017 2.75854Z" fill="#F5F5F5"/>
+												<path d="M0 12.043C0 12.7048 0.536469 13.2413 1.19828 13.2413H14.8017C15.4635 13.2413 16 12.7048 16 12.043V9.74707H0V12.043Z" fill="#EA4D33"/>
+												<path d="M16 6.25293H0V9.74699H16V6.25293Z" fill="#2153CC"/>
+												</svg>
+											</span>
+											<span class="menu-lang__lang">Русский</span>
+										</div>
+										<span class="menu-lang__right">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M15 12L9 18" stroke="#00BA10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												<path d="M9 6L15 12" stroke="#00BA10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+											</svg>
+										</span>
+									</button>
+									<a href="#" class="nav__link nav__call">Связаться с нами</a>
+									<a href="#" class="nav__link nav__mail">help@mail.ru</a>
+									<div class="menu-mobile-lang">
+										<div class="menu-mobile-lang__top">
+											<span class="menu-mobile-lang__icon">
+												<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M9 12L15 6" stroke="#00BA10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+													<path d="M15 18L9 12" stroke="#00BA10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												</svg>
+											</span>
+											<span class="menu-mobile-lang__text">Язык</span>
+										</div>
+										<ul class="lang-sheet">
+											<li class="lang-sheet__item active">
+												<a href="#" class="lang-sheet__link">
+													<div class="lang-sheet__left">
+														<span class="lang-sheet__icon">
+															<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M14.8017 2.75854H1.19828C0.536469 2.75854 0 3.29501 0 3.95682V6.25279H16V3.95682C16 3.29501 15.4635 2.75854 14.8017 2.75854Z" fill="#F5F5F5"/>
+															<path d="M0 12.043C0 12.7048 0.536469 13.2413 1.19828 13.2413H14.8017C15.4635 13.2413 16 12.7048 16 12.043V9.74707H0V12.043Z" fill="#EA4D33"/>
+															<path d="M16 6.25293H0V9.74699H16V6.25293Z" fill="#2153CC"/>
+															</svg>
+														</span>
+														<span class="lang-sheet__text">Русский</span>
+													</div>
+													<span class="lang-sheet__right lang-sheet__check">
+														<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M14.7193 0.292786C14.9068 0.480314 15.0121 0.734622 15.0121 0.999786C15.0121 1.26495 14.9068 1.51926 14.7193 1.70679L4.71929 11.7068C4.53176 11.8943 4.27745 11.9996 4.01229 11.9996C3.74712 11.9996 3.49282 11.8943 3.30529 11.7068L0.305288 8.70679C0.209778 8.61454 0.133595 8.5042 0.0811864 8.38219C0.0287774 8.26019 0.00119157 8.12897 3.77564e-05 7.99619C-0.00111606 7.86341 0.0241859 7.73173 0.0744668 7.60883C0.124748 7.48594 0.199001 7.37429 0.292893 7.28039C0.386786 7.1865 0.498438 7.11225 0.621334 7.06197C0.744231 7.01168 0.87591 6.98638 1.00869 6.98754C1.14147 6.98869 1.27269 7.01628 1.39469 7.06869C1.5167 7.12109 1.62704 7.19728 1.71929 7.29279L4.01229 9.58579L13.3053 0.292786C13.4928 0.105315 13.7471 0 14.0123 0C14.2775 0 14.5318 0.105315 14.7193 0.292786Z" fill="#00BA10"/>
+														</svg>
+													</span>
+												</a>
+											</li>
+
+											<li class="lang-sheet__item">
+												<a href="#" class="lang-sheet__link">
+													<div class="lang-sheet__left">
+														<span class="lang-sheet__icon">
+															<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M14.8017 2.75854H1.19828C0.536469 2.75854 0 3.29501 0 3.95682V6.25279H16V3.95682C16 3.29501 15.4635 2.75854 14.8017 2.75854Z" fill="#F5F5F5"/>
+															<path d="M0 12.043C0 12.7048 0.536469 13.2413 1.19828 13.2413H14.8017C15.4635 13.2413 16 12.7048 16 12.043V9.74707H0V12.043Z" fill="#EA4D33"/>
+															<path d="M16 6.25293H0V9.74699H16V6.25293Z" fill="#2153CC"/>
+															</svg>
+														</span>
+														<span class="lang-sheet__text">English</span>
+													</div>
+													<span class="lang-sheet__right lang-sheet__check">
+														<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M14.7193 0.292786C14.9068 0.480314 15.0121 0.734622 15.0121 0.999786C15.0121 1.26495 14.9068 1.51926 14.7193 1.70679L4.71929 11.7068C4.53176 11.8943 4.27745 11.9996 4.01229 11.9996C3.74712 11.9996 3.49282 11.8943 3.30529 11.7068L0.305288 8.70679C0.209778 8.61454 0.133595 8.5042 0.0811864 8.38219C0.0287774 8.26019 0.00119157 8.12897 3.77564e-05 7.99619C-0.00111606 7.86341 0.0241859 7.73173 0.0744668 7.60883C0.124748 7.48594 0.199001 7.37429 0.292893 7.28039C0.386786 7.1865 0.498438 7.11225 0.621334 7.06197C0.744231 7.01168 0.87591 6.98638 1.00869 6.98754C1.14147 6.98869 1.27269 7.01628 1.39469 7.06869C1.5167 7.12109 1.62704 7.19728 1.71929 7.29279L4.01229 9.58579L13.3053 0.292786C13.4928 0.105315 13.7471 0 14.0123 0C14.2775 0 14.5318 0.105315 14.7193 0.292786Z" fill="#00BA10"/>
+														</svg>
+													</span>
+												</a>
+											</li>
+
+											<li class="lang-sheet__item">
+												<a href="#" class="lang-sheet__link">
+													<div class="lang-sheet__left">
+														<span class="lang-sheet__icon">
+															<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M14.8017 2.75854H1.19828C0.536469 2.75854 0 3.29501 0 3.95682V6.25279H16V3.95682C16 3.29501 15.4635 2.75854 14.8017 2.75854Z" fill="#F5F5F5"/>
+															<path d="M0 12.043C0 12.7048 0.536469 13.2413 1.19828 13.2413H14.8017C15.4635 13.2413 16 12.7048 16 12.043V9.74707H0V12.043Z" fill="#EA4D33"/>
+															<path d="M16 6.25293H0V9.74699H16V6.25293Z" fill="#2153CC"/>
+															</svg>
+														</span>
+														<span class="lang-sheet__text">Deutsch</span>
+													</div>
+													<span class="lang-sheet__right lang-sheet__check">
+														<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M14.7193 0.292786C14.9068 0.480314 15.0121 0.734622 15.0121 0.999786C15.0121 1.26495 14.9068 1.51926 14.7193 1.70679L4.71929 11.7068C4.53176 11.8943 4.27745 11.9996 4.01229 11.9996C3.74712 11.9996 3.49282 11.8943 3.30529 11.7068L0.305288 8.70679C0.209778 8.61454 0.133595 8.5042 0.0811864 8.38219C0.0287774 8.26019 0.00119157 8.12897 3.77564e-05 7.99619C-0.00111606 7.86341 0.0241859 7.73173 0.0744668 7.60883C0.124748 7.48594 0.199001 7.37429 0.292893 7.28039C0.386786 7.1865 0.498438 7.11225 0.621334 7.06197C0.744231 7.01168 0.87591 6.98638 1.00869 6.98754C1.14147 6.98869 1.27269 7.01628 1.39469 7.06869C1.5167 7.12109 1.62704 7.19728 1.71929 7.29279L4.01229 9.58579L13.3053 0.292786C13.4928 0.105315 13.7471 0 14.0123 0C14.2775 0 14.5318 0.105315 14.7193 0.292786Z" fill="#00BA10"/>
+														</svg>
+													</span>
+												</a>
+											</li>
+
+
+											<li class="lang-sheet__item">
+												<a href="#" class="lang-sheet__link">
+													<div class="lang-sheet__left">
+														<span class="lang-sheet__icon">
+															<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M14.8017 2.75854H1.19828C0.536469 2.75854 0 3.29501 0 3.95682V6.25279H16V3.95682C16 3.29501 15.4635 2.75854 14.8017 2.75854Z" fill="#F5F5F5"/>
+															<path d="M0 12.043C0 12.7048 0.536469 13.2413 1.19828 13.2413H14.8017C15.4635 13.2413 16 12.7048 16 12.043V9.74707H0V12.043Z" fill="#EA4D33"/>
+															<path d="M16 6.25293H0V9.74699H16V6.25293Z" fill="#2153CC"/>
+															</svg>
+														</span>
+														<span class="lang-sheet__text">Español</span>
+													</div>
+													<span class="lang-sheet__right lang-sheet__check">
+														<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M14.7193 0.292786C14.9068 0.480314 15.0121 0.734622 15.0121 0.999786C15.0121 1.26495 14.9068 1.51926 14.7193 1.70679L4.71929 11.7068C4.53176 11.8943 4.27745 11.9996 4.01229 11.9996C3.74712 11.9996 3.49282 11.8943 3.30529 11.7068L0.305288 8.70679C0.209778 8.61454 0.133595 8.5042 0.0811864 8.38219C0.0287774 8.26019 0.00119157 8.12897 3.77564e-05 7.99619C-0.00111606 7.86341 0.0241859 7.73173 0.0744668 7.60883C0.124748 7.48594 0.199001 7.37429 0.292893 7.28039C0.386786 7.1865 0.498438 7.11225 0.621334 7.06197C0.744231 7.01168 0.87591 6.98638 1.00869 6.98754C1.14147 6.98869 1.27269 7.01628 1.39469 7.06869C1.5167 7.12109 1.62704 7.19728 1.71929 7.29279L4.01229 9.58579L13.3053 0.292786C13.4928 0.105315 13.7471 0 14.0123 0C14.2775 0 14.5318 0.105315 14.7193 0.292786Z" fill="#00BA10"/>
+														</svg>
+													</span>
+												</a>
+											</li>
+
+
+											<li class="lang-sheet__item">
+												<a href="#" class="lang-sheet__link">
+													<div class="lang-sheet__left">
+														<span class="lang-sheet__icon">
+															<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M14.8017 2.75854H1.19828C0.536469 2.75854 0 3.29501 0 3.95682V6.25279H16V3.95682C16 3.29501 15.4635 2.75854 14.8017 2.75854Z" fill="#F5F5F5"/>
+															<path d="M0 12.043C0 12.7048 0.536469 13.2413 1.19828 13.2413H14.8017C15.4635 13.2413 16 12.7048 16 12.043V9.74707H0V12.043Z" fill="#EA4D33"/>
+															<path d="M16 6.25293H0V9.74699H16V6.25293Z" fill="#2153CC"/>
+															</svg>
+														</span>
+														<span class="lang-sheet__text">Français</span>
+													</div>
+													<span class="lang-sheet__right lang-sheet__check">
+														<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M14.7193 0.292786C14.9068 0.480314 15.0121 0.734622 15.0121 0.999786C15.0121 1.26495 14.9068 1.51926 14.7193 1.70679L4.71929 11.7068C4.53176 11.8943 4.27745 11.9996 4.01229 11.9996C3.74712 11.9996 3.49282 11.8943 3.30529 11.7068L0.305288 8.70679C0.209778 8.61454 0.133595 8.5042 0.0811864 8.38219C0.0287774 8.26019 0.00119157 8.12897 3.77564e-05 7.99619C-0.00111606 7.86341 0.0241859 7.73173 0.0744668 7.60883C0.124748 7.48594 0.199001 7.37429 0.292893 7.28039C0.386786 7.1865 0.498438 7.11225 0.621334 7.06197C0.744231 7.01168 0.87591 6.98638 1.00869 6.98754C1.14147 6.98869 1.27269 7.01628 1.39469 7.06869C1.5167 7.12109 1.62704 7.19728 1.71929 7.29279L4.01229 9.58579L13.3053 0.292786C13.4928 0.105315 13.7471 0 14.0123 0C14.2775 0 14.5318 0.105315 14.7193 0.292786Z" fill="#00BA10"/>
+														</svg>
+													</span>
+												</a>
+											</li>
+
+
+											<li class="lang-sheet__item">
+												<a href="#" class="lang-sheet__link">
+													<div class="lang-sheet__left">
+														<span class="lang-sheet__icon">
+															<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M14.8017 2.75854H1.19828C0.536469 2.75854 0 3.29501 0 3.95682V6.25279H16V3.95682C16 3.29501 15.4635 2.75854 14.8017 2.75854Z" fill="#F5F5F5"/>
+															<path d="M0 12.043C0 12.7048 0.536469 13.2413 1.19828 13.2413H14.8017C15.4635 13.2413 16 12.7048 16 12.043V9.74707H0V12.043Z" fill="#EA4D33"/>
+															<path d="M16 6.25293H0V9.74699H16V6.25293Z" fill="#2153CC"/>
+															</svg>
+														</span>
+														<span class="lang-sheet__text">Italiano</span>
+													</div>
+													<span class="lang-sheet__right lang-sheet__check">
+														<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M14.7193 0.292786C14.9068 0.480314 15.0121 0.734622 15.0121 0.999786C15.0121 1.26495 14.9068 1.51926 14.7193 1.70679L4.71929 11.7068C4.53176 11.8943 4.27745 11.9996 4.01229 11.9996C3.74712 11.9996 3.49282 11.8943 3.30529 11.7068L0.305288 8.70679C0.209778 8.61454 0.133595 8.5042 0.0811864 8.38219C0.0287774 8.26019 0.00119157 8.12897 3.77564e-05 7.99619C-0.00111606 7.86341 0.0241859 7.73173 0.0744668 7.60883C0.124748 7.48594 0.199001 7.37429 0.292893 7.28039C0.386786 7.1865 0.498438 7.11225 0.621334 7.06197C0.744231 7.01168 0.87591 6.98638 1.00869 6.98754C1.14147 6.98869 1.27269 7.01628 1.39469 7.06869C1.5167 7.12109 1.62704 7.19728 1.71929 7.29279L4.01229 9.58579L13.3053 0.292786C13.4928 0.105315 13.7471 0 14.0123 0C14.2775 0 14.5318 0.105315 14.7193 0.292786Z" fill="#00BA10"/>
+														</svg>
+													</span>
+												</a>
+											</li>
+
+											<li class="lang-sheet__item">
+												<a href="#" class="lang-sheet__link">
+													<div class="lang-sheet__left">
+														<span class="lang-sheet__icon">
+															<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M14.8017 2.75854H1.19828C0.536469 2.75854 0 3.29501 0 3.95682V6.25279H16V3.95682C16 3.29501 15.4635 2.75854 14.8017 2.75854Z" fill="#F5F5F5"/>
+															<path d="M0 12.043C0 12.7048 0.536469 13.2413 1.19828 13.2413H14.8017C15.4635 13.2413 16 12.7048 16 12.043V9.74707H0V12.043Z" fill="#EA4D33"/>
+															<path d="M16 6.25293H0V9.74699H16V6.25293Z" fill="#2153CC"/>
+															</svg>
+														</span>
+														<span class="lang-sheet__text">Nederlands</span>
+													</div>
+													<span class="lang-sheet__right lang-sheet__check">
+														<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M14.7193 0.292786C14.9068 0.480314 15.0121 0.734622 15.0121 0.999786C15.0121 1.26495 14.9068 1.51926 14.7193 1.70679L4.71929 11.7068C4.53176 11.8943 4.27745 11.9996 4.01229 11.9996C3.74712 11.9996 3.49282 11.8943 3.30529 11.7068L0.305288 8.70679C0.209778 8.61454 0.133595 8.5042 0.0811864 8.38219C0.0287774 8.26019 0.00119157 8.12897 3.77564e-05 7.99619C-0.00111606 7.86341 0.0241859 7.73173 0.0744668 7.60883C0.124748 7.48594 0.199001 7.37429 0.292893 7.28039C0.386786 7.1865 0.498438 7.11225 0.621334 7.06197C0.744231 7.01168 0.87591 6.98638 1.00869 6.98754C1.14147 6.98869 1.27269 7.01628 1.39469 7.06869C1.5167 7.12109 1.62704 7.19728 1.71929 7.29279L4.01229 9.58579L13.3053 0.292786C13.4928 0.105315 13.7471 0 14.0123 0C14.2775 0 14.5318 0.105315 14.7193 0.292786Z" fill="#00BA10"/>
+														</svg>
+													</span>
+												</a>
+											</li>
+
+
+											<li class="lang-sheet__item">
+												<a href="#" class="lang-sheet__link">
+													<div class="lang-sheet__left">
+														<span class="lang-sheet__icon">
+															<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M14.8017 2.75854H1.19828C0.536469 2.75854 0 3.29501 0 3.95682V6.25279H16V3.95682C16 3.29501 15.4635 2.75854 14.8017 2.75854Z" fill="#F5F5F5"/>
+															<path d="M0 12.043C0 12.7048 0.536469 13.2413 1.19828 13.2413H14.8017C15.4635 13.2413 16 12.7048 16 12.043V9.74707H0V12.043Z" fill="#EA4D33"/>
+															<path d="M16 6.25293H0V9.74699H16V6.25293Z" fill="#2153CC"/>
+															</svg>
+														</span>
+														<span class="lang-sheet__text">Polski</span>
+													</div>
+													<span class="lang-sheet__right lang-sheet__check">
+														<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M14.7193 0.292786C14.9068 0.480314 15.0121 0.734622 15.0121 0.999786C15.0121 1.26495 14.9068 1.51926 14.7193 1.70679L4.71929 11.7068C4.53176 11.8943 4.27745 11.9996 4.01229 11.9996C3.74712 11.9996 3.49282 11.8943 3.30529 11.7068L0.305288 8.70679C0.209778 8.61454 0.133595 8.5042 0.0811864 8.38219C0.0287774 8.26019 0.00119157 8.12897 3.77564e-05 7.99619C-0.00111606 7.86341 0.0241859 7.73173 0.0744668 7.60883C0.124748 7.48594 0.199001 7.37429 0.292893 7.28039C0.386786 7.1865 0.498438 7.11225 0.621334 7.06197C0.744231 7.01168 0.87591 6.98638 1.00869 6.98754C1.14147 6.98869 1.27269 7.01628 1.39469 7.06869C1.5167 7.12109 1.62704 7.19728 1.71929 7.29279L4.01229 9.58579L13.3053 0.292786C13.4928 0.105315 13.7471 0 14.0123 0C14.2775 0 14.5318 0.105315 14.7193 0.292786Z" fill="#00BA10"/>
+														</svg>
+													</span>
+												</a>
+											</li>
+
+
+											<li class="lang-sheet__item">
+												<a href="#" class="lang-sheet__link">
+													<div class="lang-sheet__left">
+														<span class="lang-sheet__icon">
+															<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M14.8017 2.75854H1.19828C0.536469 2.75854 0 3.29501 0 3.95682V6.25279H16V3.95682C16 3.29501 15.4635 2.75854 14.8017 2.75854Z" fill="#F5F5F5"/>
+															<path d="M0 12.043C0 12.7048 0.536469 13.2413 1.19828 13.2413H14.8017C15.4635 13.2413 16 12.7048 16 12.043V9.74707H0V12.043Z" fill="#EA4D33"/>
+															<path d="M16 6.25293H0V9.74699H16V6.25293Z" fill="#2153CC"/>
+															</svg>
+														</span>
+														<span class="lang-sheet__text">Português</span>
+													</div>
+													<span class="lang-sheet__right lang-sheet__check">
+														<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M14.7193 0.292786C14.9068 0.480314 15.0121 0.734622 15.0121 0.999786C15.0121 1.26495 14.9068 1.51926 14.7193 1.70679L4.71929 11.7068C4.53176 11.8943 4.27745 11.9996 4.01229 11.9996C3.74712 11.9996 3.49282 11.8943 3.30529 11.7068L0.305288 8.70679C0.209778 8.61454 0.133595 8.5042 0.0811864 8.38219C0.0287774 8.26019 0.00119157 8.12897 3.77564e-05 7.99619C-0.00111606 7.86341 0.0241859 7.73173 0.0744668 7.60883C0.124748 7.48594 0.199001 7.37429 0.292893 7.28039C0.386786 7.1865 0.498438 7.11225 0.621334 7.06197C0.744231 7.01168 0.87591 6.98638 1.00869 6.98754C1.14147 6.98869 1.27269 7.01628 1.39469 7.06869C1.5167 7.12109 1.62704 7.19728 1.71929 7.29279L4.01229 9.58579L13.3053 0.292786C13.4928 0.105315 13.7471 0 14.0123 0C14.2775 0 14.5318 0.105315 14.7193 0.292786Z" fill="#00BA10"/>
+														</svg>
+													</span>
+												</a>
+											</li>
+
+
+											<li class="lang-sheet__item">
+												<a href="#" class="lang-sheet__link">
+													<div class="lang-sheet__left">
+														<span class="lang-sheet__icon">
+															<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M14.8017 2.75854H1.19828C0.536469 2.75854 0 3.29501 0 3.95682V6.25279H16V3.95682C16 3.29501 15.4635 2.75854 14.8017 2.75854Z" fill="#F5F5F5"/>
+															<path d="M0 12.043C0 12.7048 0.536469 13.2413 1.19828 13.2413H14.8017C15.4635 13.2413 16 12.7048 16 12.043V9.74707H0V12.043Z" fill="#EA4D33"/>
+															<path d="M16 6.25293H0V9.74699H16V6.25293Z" fill="#2153CC"/>
+															</svg>
+														</span>
+														<span class="lang-sheet__text">Türkçe</span>
+													</div>
+													<span class="lang-sheet__right lang-sheet__check">
+														<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M14.7193 0.292786C14.9068 0.480314 15.0121 0.734622 15.0121 0.999786C15.0121 1.26495 14.9068 1.51926 14.7193 1.70679L4.71929 11.7068C4.53176 11.8943 4.27745 11.9996 4.01229 11.9996C3.74712 11.9996 3.49282 11.8943 3.30529 11.7068L0.305288 8.70679C0.209778 8.61454 0.133595 8.5042 0.0811864 8.38219C0.0287774 8.26019 0.00119157 8.12897 3.77564e-05 7.99619C-0.00111606 7.86341 0.0241859 7.73173 0.0744668 7.60883C0.124748 7.48594 0.199001 7.37429 0.292893 7.28039C0.386786 7.1865 0.498438 7.11225 0.621334 7.06197C0.744231 7.01168 0.87591 6.98638 1.00869 6.98754C1.14147 6.98869 1.27269 7.01628 1.39469 7.06869C1.5167 7.12109 1.62704 7.19728 1.71929 7.29279L4.01229 9.58579L13.3053 0.292786C13.4928 0.105315 13.7471 0 14.0123 0C14.2775 0 14.5318 0.105315 14.7193 0.292786Z" fill="#00BA10"/>
+														</svg>
+													</span>
+												</a>
+											</li>
+
+
+											<li class="lang-sheet__item">
+												<a href="#" class="lang-sheet__link">
+													<div class="lang-sheet__left">
+														<span class="lang-sheet__icon">
+															<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M14.8017 2.75854H1.19828C0.536469 2.75854 0 3.29501 0 3.95682V6.25279H16V3.95682C16 3.29501 15.4635 2.75854 14.8017 2.75854Z" fill="#F5F5F5"/>
+															<path d="M0 12.043C0 12.7048 0.536469 13.2413 1.19828 13.2413H14.8017C15.4635 13.2413 16 12.7048 16 12.043V9.74707H0V12.043Z" fill="#EA4D33"/>
+															<path d="M16 6.25293H0V9.74699H16V6.25293Z" fill="#2153CC"/>
+															</svg>
+														</span>
+														<span class="lang-sheet__text">Українська</span>
+													</div>
+													<span class="lang-sheet__right lang-sheet__check">
+														<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M14.7193 0.292786C14.9068 0.480314 15.0121 0.734622 15.0121 0.999786C15.0121 1.26495 14.9068 1.51926 14.7193 1.70679L4.71929 11.7068C4.53176 11.8943 4.27745 11.9996 4.01229 11.9996C3.74712 11.9996 3.49282 11.8943 3.30529 11.7068L0.305288 8.70679C0.209778 8.61454 0.133595 8.5042 0.0811864 8.38219C0.0287774 8.26019 0.00119157 8.12897 3.77564e-05 7.99619C-0.00111606 7.86341 0.0241859 7.73173 0.0744668 7.60883C0.124748 7.48594 0.199001 7.37429 0.292893 7.28039C0.386786 7.1865 0.498438 7.11225 0.621334 7.06197C0.744231 7.01168 0.87591 6.98638 1.00869 6.98754C1.14147 6.98869 1.27269 7.01628 1.39469 7.06869C1.5167 7.12109 1.62704 7.19728 1.71929 7.29279L4.01229 9.58579L13.3053 0.292786C13.4928 0.105315 13.7471 0 14.0123 0C14.2775 0 14.5318 0.105315 14.7193 0.292786Z" fill="#00BA10"/>
+														</svg>
+													</span>
+												</a>
+											</li>
+
+
+											<li class="lang-sheet__item">
+												<a href="#" class="lang-sheet__link">
+													<div class="lang-sheet__left">
+														<span class="lang-sheet__icon">
+															<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M14.8017 2.75854H1.19828C0.536469 2.75854 0 3.29501 0 3.95682V6.25279H16V3.95682C16 3.29501 15.4635 2.75854 14.8017 2.75854Z" fill="#F5F5F5"/>
+															<path d="M0 12.043C0 12.7048 0.536469 13.2413 1.19828 13.2413H14.8017C15.4635 13.2413 16 12.7048 16 12.043V9.74707H0V12.043Z" fill="#EA4D33"/>
+															<path d="M16 6.25293H0V9.74699H16V6.25293Z" fill="#2153CC"/>
+															</svg>
+														</span>
+														<span class="lang-sheet__text">Čeština</span>
+													</div>
+													<span class="lang-sheet__right lang-sheet__check">
+														<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M14.7193 0.292786C14.9068 0.480314 15.0121 0.734622 15.0121 0.999786C15.0121 1.26495 14.9068 1.51926 14.7193 1.70679L4.71929 11.7068C4.53176 11.8943 4.27745 11.9996 4.01229 11.9996C3.74712 11.9996 3.49282 11.8943 3.30529 11.7068L0.305288 8.70679C0.209778 8.61454 0.133595 8.5042 0.0811864 8.38219C0.0287774 8.26019 0.00119157 8.12897 3.77564e-05 7.99619C-0.00111606 7.86341 0.0241859 7.73173 0.0744668 7.60883C0.124748 7.48594 0.199001 7.37429 0.292893 7.28039C0.386786 7.1865 0.498438 7.11225 0.621334 7.06197C0.744231 7.01168 0.87591 6.98638 1.00869 6.98754C1.14147 6.98869 1.27269 7.01628 1.39469 7.06869C1.5167 7.12109 1.62704 7.19728 1.71929 7.29279L4.01229 9.58579L13.3053 0.292786C13.4928 0.105315 13.7471 0 14.0123 0C14.2775 0 14.5318 0.105315 14.7193 0.292786Z" fill="#00BA10"/>
+														</svg>
+													</span>
+												</a>
+											</li>
+
+
+											<li class="lang-sheet__item">
+												<a href="#" class="lang-sheet__link">
+													<div class="lang-sheet__left">
+														<span class="lang-sheet__icon">
+															<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M14.8017 2.75854H1.19828C0.536469 2.75854 0 3.29501 0 3.95682V6.25279H16V3.95682C16 3.29501 15.4635 2.75854 14.8017 2.75854Z" fill="#F5F5F5"/>
+															<path d="M0 12.043C0 12.7048 0.536469 13.2413 1.19828 13.2413H14.8017C15.4635 13.2413 16 12.7048 16 12.043V9.74707H0V12.043Z" fill="#EA4D33"/>
+															<path d="M16 6.25293H0V9.74699H16V6.25293Z" fill="#2153CC"/>
+															</svg>
+														</span>
+														<span class="lang-sheet__text">Ελληνικά</span>
+													</div>
+													<span class="lang-sheet__right lang-sheet__check">
+														<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M14.7193 0.292786C14.9068 0.480314 15.0121 0.734622 15.0121 0.999786C15.0121 1.26495 14.9068 1.51926 14.7193 1.70679L4.71929 11.7068C4.53176 11.8943 4.27745 11.9996 4.01229 11.9996C3.74712 11.9996 3.49282 11.8943 3.30529 11.7068L0.305288 8.70679C0.209778 8.61454 0.133595 8.5042 0.0811864 8.38219C0.0287774 8.26019 0.00119157 8.12897 3.77564e-05 7.99619C-0.00111606 7.86341 0.0241859 7.73173 0.0744668 7.60883C0.124748 7.48594 0.199001 7.37429 0.292893 7.28039C0.386786 7.1865 0.498438 7.11225 0.621334 7.06197C0.744231 7.01168 0.87591 6.98638 1.00869 6.98754C1.14147 6.98869 1.27269 7.01628 1.39469 7.06869C1.5167 7.12109 1.62704 7.19728 1.71929 7.29279L4.01229 9.58579L13.3053 0.292786C13.4928 0.105315 13.7471 0 14.0123 0C14.2775 0 14.5318 0.105315 14.7193 0.292786Z" fill="#00BA10"/>
+														</svg>
+													</span>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</nav>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<div class="text-page">
+				<div class="container">
+					<h2 class="heading">Заголовок</h2>
+					<h3 class="subtitle">Подзаголовок</h3>
+					<p class="text text-page__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<ol class="list-ol text-page__list-ol">
+						<li class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+						<li class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+						<li class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+					</ol>
+					<ul class="list-ul text-page__list-ul">
+						<li class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+						<li class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+						<li class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+					</ol>
+					<p class="text text-page__text cursive">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+					</p>
+					<a href="#" class="gyperlink">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</a>
+					<button class="btn btn_next">Назад</button>
+				</div>
+			</div>
+		</main>
+	</div>
+
+
+	<!-- Scripts -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<!-- Jquery UI -->
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+	<!-- JSAP -->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+
+
+	<!-- Jquery Tuch punch -->
+	<!-- <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script> -->
+
+	<script src="js/script.js"></script>
+
+
+
+</body>
+</html>

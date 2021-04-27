@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'Fugue';
+    src: url('Fugue-Regular.eot');
+    src: url('Fugue-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Fugue-Regular.woff2') format('woff2'),
+        url('Fugue-Regular.woff') format('woff'),
+        url('Fugue-Regular.ttf') format('truetype'),
+        url('Fugue-Regular.svg#Fugue-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/**, *:after, *before {
+    box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+    background: var(--bg);
+    font-family: 'Fugue';
+    color: var(--color);
+}
+.flex-btw {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container {
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+:root {
+    --bg: #F8FAFF;
+    --color: #272B35;
+    --gray: #F1F1F1;
+    --green: #00BA10;
+    --blue: #5F57FF;
+    --red: #FC2F58;;
+}
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background: white;
+    box-shadow: 0px 2px 4px -2px rgba(24, 39, 75, 0.12), 0px 4px 4px -2px rgba(24, 39, 75, 0.08);
+}
+.lang__current {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.lang__carret {
+    line-height: 0;
+    margin-left: 10px;
+}
+.settings {
+    display: flex;
+    align-items: center;
+}
+.lang {
+    margin-right: 30px;
+}
+.menu__icon {
+    cursor: pointer;
+}
+.menu {
+    position: relative;
+}
+.nav {
+    right: 0;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    border: 1px solid var(--gray);
+    border-radius: 4px;
+}
+.cross {
+    display: none;
+}
+.nav__link {
+    height: 44px;
+    width: 380px;
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 0 10px;
+    font-family: 'Fugue';
+    color: var(--color);
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.1s linear;
+}
+.nav__link:hover, .lang__link:hover {
+    background: var(--gray);
+}
+.nav__call, .nav__mail {
+    font-size: 14px;
+    font-family: 'Proxima Nova';
+}
+.nav__mail {
+    color: var(--green);
+}
+.lang__link {
+    display: flex;
+    width: 143px;
+    padding: 0 10px;
+    height: 29px;
+    align-items: center;
+    background: white;
+    font-size: 14px;
+    font-family: 'Proxima Nova';
+    color: var(--color);
+    text-decoration: none;
+    transition: all 0.1s linear;
+}
+.lang__icon {
+    margin-right: 9px;
+}
+.lang {
+    position: relative;
+}
+.lang__list {
+    position: absolute;
+    right: 0;
+    border-radius: 4px;
+    border: 1px solid var(--gray);
+    padding: 12px 0 10px 0;
+    background: white;
+    display: none;
+}
+.lang__list .active {
+    background: var(--gray);
+}
+.lang__current {
+    padding: 4px 7px;
+    border-radius: 4px;
+}
+.bg-gray {
+    background: var(--gray);
+}
+.block {
+    text-align: center;
+}
+.first__block {
+    margin-top: 110px;
+}
+.title {
+    font-size: 48px;
+    font-weight: 400;
+}
+.first__block .title {
+    margin-bottom: 20px;
+}
+.subtitle {
+    font-size: 18px;
+    font-weight: 400;
+}
+.first__block .subtitle {
+    margin-bottom: 106px;
+}
+.heading {
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+    font-family: 'Proxima Nova';
+    font-size: 20px;
+    color: white;
+}
+
+
+.group {
+    align-items: center;
+    justify-content: center;
+}*/

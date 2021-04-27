@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The diet</title>
+
+	<!-- Styles -->
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Fonts -->
+
+	<link rel="stylesheet" href="fonts/fugue.css">
+
+	<link rel="stylesheet" href="fonts/proxima.css">
+
+
+
+
+
+
+</head>
+<body>
+	<div class="content">
+		<header class="header">
+			<div class="top-line">
+				<div class="container">
+					<div class="flex-btw">
+						<p class="top-line__text">
+							Получите свой персональный план
+						</p>
+						<button class="btn btn_white">Получить</button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<div class="plan">
+				<section class="part part-1">
+					<div class="container">
+						<h2 class="heading heading_1">
+						Прогноз результатов программы на основе ваших ответов
+						</h2>
+						<div class="part__top">
+							<div class="part__side">
+								<div class="desk">
+									<p class="desk__name">Прогноз снижения веса</p>
+									<p class="desk__date">7 кг. до <span class="number-m">#</span> Месяц <span class="month">#</span> 2021 года</p>
+									<div class="chart">
+										<ul class="hart__numbers">
+											<li class="chart__number">100</li>
+											<li class="chart__number">97,7</li>
+											<li class="chart__number">95,4</li>
+											<li class="chart__number">93</li>
+										</ul>
+										<ul class="chart__months">
+											<li class="chart_month">Март</li>
+											<li class="chart_month">Апрель</li>
+										</ul>
+										<ul class="chart__dots">
+											<li class="chart__dot"></li>
+											<li class="chart__dot"></li>
+											<li class="chart__dot"></li>
+										</ul>
+										<ul class="chart__crosses">
+											<div class="chart__wrap">
+												<li class="chart__cross"></li>
+												<li class="chart__cross"></li>
+											</div>
+											
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="part__side">
+								<ul class="results">
+									<li class="results__result">
+										<div class="results__png"></div>
+										<div class="results__main">
+											<p class="results__text">Результат после 1 недели</p>
+											<p class="result__numbers">4 кг</p>
+										</div>
+									</li>
+									<li class="results__result">
+										<div class="results__png"></div>
+										<div class="results__main">
+											<p class="results__text">Дневной минимум воды</p>
+											<p class="result__numbers">2.1 л</p>
+										</div>
+									</li>
+									<li class="results__result">
+										<div class="results__png"></div>
+										<div class="results__main">
+											<p class="results__text">Рекомендуемая длительность диеты</p>
+											<p class="result__numbers">21 день</p>
+										</div>
+									</li>
+									<li class="results__result">
+										<div class="results__png"></div>
+										<div class="results__main">
+											<p class="results__text">Дневная норма калорий</p>
+											<p class="result__numbers">1600 - 1700 кКал</p>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="part__bottom">
+							<button class="btn btn_next btn_middle">Получить</button>
+						</div>
+					</div>
+				</section>
+
+				<section class="part part-2">
+					<div class="container">
+						<div class="part__top">
+						<h2 class="heading heading_1">
+							Обзор Вашего профиля
+						</h2>
+					</div>
+					<div class="part__body">
+						<ul class="results profile">
+								<li class="results__result profile__item">
+									<div class="results__png"></div>
+									<div class="results__main">
+										<p class="results__text">Возраст</p>
+										<p class="result__numbers" id="agePlan">80 лет</p>
+									</div>
+								</li>
+								<li class="results__result profile__item">
+									<div class="results__png"></div>
+									<div class="results__main">
+										<p class="results__text">Вес</p>
+										<p class="result__numbers" id="weightPlan">66 кг</p>
+									</div>
+								</li>
+								<li class="results__result profile__item profile__item_column">
+									<div class="results__main profile__flex">
+										<p class="results__text">Индекс массы тела</p>
+										<p class="result__numbers" id="indexBody">20.37</p>
+									</div>
+									<div class="ruler"></div>
+									<spn class="results__text mr-auto">Ваш вес в пределах нормы</span>
+								</li>
+								<li class="results__result profile__item">
+									<div class="results__png"></div>
+									<div class="results__main">
+										<p class="results__text">Рост</p>
+										<p class="result__numbers" id="heightPlan">180 см</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section class="part part-3">
+					<div class="container">
+						<div class="part__body flex-btw">
+							<div class="part__side">
+								<img src="img/you-can.png" alt="" class="you-can">
+							</div>
+							<div class="part__side">
+								<h2 class="heading heading_in">
+									Да, вы точно сможете!
+								</h2>
+								<p class="text">83% людей с похожими параметрами тела сбросили более 33 кг с помощью нашего плана</p>
+								<button class="btn btn_next">Получить</button>
+							</div>
+						</div>
+					</div>	
+				</section>
+
+				<section class="part part-4">
+					<div class="container">
+						<div class="part__body flex-btw">
+							<div class="part__side">
+								<h2 class="heading heading_4">
+									Уменьшите объем таких проблемных зон:
+								</h2>
+								<ul class="zones">
+									<li class="zones__item">
+										<span class="zones__icon">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" fill="#00BA10" stroke="#00BA10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+											<path d="M16.5 9L11.3125 14.5L9 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+											</svg>
+										</span>
+										<span class="text zones__text">Подбородок</span>
+									</li>
+									<li class="zones__item">
+										<span class="zones__icon">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" fill="#00BA10" stroke="#00BA10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+											<path d="M16.5 9L11.3125 14.5L9 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+											</svg>
+										</span>
+										<span class="text zones__text">Ягодицы</span>
+									</li>
+									<li class="zones__item">
+										<span class="zones__icon">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" fill="#00BA10" stroke="#00BA10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+											<path d="M16.5 9L11.3125 14.5L9 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+											</svg>
+										</span>
+										<span class="text zones__text">Живот</span>
+									</li>
+
+									<li class="zones__item">
+										<span class="zones__icon">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" fill="#FC2F58" stroke="#FC2F58" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												<path d="M16.5 9L11.3125 14.5L9 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+											</svg>
+										</span>
+										<span class="text zones__text">Руки</span>
+									</li>
+
+									<li class="zones__item">
+										<span class="zones__icon">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" fill="#FC2F58" stroke="#FC2F58" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												<path d="M16.5 9L11.3125 14.5L9 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+											</svg>
+										</span>
+										<span class="text zones__text">Ноги</span>
+									</li>
+
+									<li class="zones__item">
+										<span class="zones__icon">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" fill="#FC2F58" stroke="#FC2F58" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												<path d="M16.5 9L11.3125 14.5L9 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+											</svg>
+										</span>
+										<span class="text zones__text">Грудь</span>
+									</li>
+								</ul>
+								<p class="text">
+									Висцеральный жир — это оболочка ваших органов, увеличивающая объем тела. Этот тип жира наиболее опасен, поскольку влияет не только на вашу фигуру, но и на ваше здоровье и гормональный фон.
+									<br><br>
+									Мы уже составили индивидуальный план питания для вашего типа телосложения, который будет способствовать потере подкожного и висцерального жира.
+								</p>
+							</div>
+							<div class="part__side">
+								<img src="img/mans.png" alt="">
+							</div>
+						</div>
+						<div class="part__bottom">
+							<button class="btn btn_next btn_middle">Получить</button>
+						</div>
+					</div>
+				</section>
+
+				<section class="part part-5">
+					<div class="container">
+						<ul class="benefit">
+							<li class="benefit__item">
+								<div class="benefit__block">
+									<h2 class="heading heading_in">Что вы получите?</h2>
+									<p class="benefit__name">Персональный план питания</p>
+									<p class="benefit__text text">Этот план — ключ к ускорению вашего метаболического процесса. Все рецепты разработаны профессиональными диетологами. Каждый рецепт содержит перечень ингредиентов, пошаговую инструкцию по приготовлению и информацию об энергетической ценности. Не нужно подсчитывать калории, мы сделали это за вас.</p>
+								</div>
+								<div class="benefit__block">
+									<div class="benefit__bg">
+										<div class="benefit__png"></div>
+									</div>
+								</div>
+							</li>
+
+							<li class="benefit__item">
+								
+								<div class="benefit__block">
+									<div class="benefit__bg">
+										<div class="benefit__png"></div>
+									</div>
+								</div>
+								<div class="benefit__block">
+									<p class="benefit__name">Ускорения метаболизма</p>
+									<p class="benefit__text text">Этот план — ключ к ускорению вашего метаболического процесса. Все рецепты разработаны профессиональными диетологами. Каждый рецепт содержит перечень ингредиентов, пошаговую инструкцию по приготовлению и информацию об энергетической ценности. Не нужно подсчитывать калории, мы сделали это за вас.</p>
+								</div>
+							</li>
+
+							<li class="benefit__item">
+								
+								
+								<div class="benefit__block">
+									<p class="benefit__name">Онлайн поддержка</p>
+									<p class="benefit__text text">Мы на связи 24/7 и готовы ответить на любые вопросы и помочь решить любые проблемы.
+									<br><br>
+									Наши специалисты отдела поддержки передадут ваш запрос профессиональному диетологу и помогут разобраться со всеми вопросами, которые у вас могут возникнуть.</p>
+								</div>
+								<div class="benefit__block">
+									<div class="benefit__bg">
+										<div class="benefit__png"></div>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<div class="part__bottom">
+							<button class="btn btn_next btn_middle">Получить</button>
+						</div>
+					</div>
+				</section>
+
+				<section class="part part-6">
+					<div class="container">
+						<div class="part__top">
+							<h2 class="heading">Дополнительные приемущества</h2>
+						</div>
+						<div class="part__body">
+							<details class="advantages">
+								<summary class="advantages__top">
+									<p class="advantages__name">Онлайн поддержка</p>
+									<span class="advantages__icon">
+										<svg id="advantagesNo" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M12 2C6.47727 2 2 6.47727 2 12C2 17.5227 6.47727 22 12 22C17.5227 22 22 17.5227 22 12C22 6.47727 17.5227 2 12 2ZM12 20.3333C7.39773 20.3333 3.66668 16.6023 3.66668 12C3.66668 7.39773 7.39773 3.66668 12 3.66668C16.6023 3.66668 20.3333 7.39773 20.3333 12C20.3333 16.6023 16.6023 20.3333 12 20.3333Z" fill="#00BA10"/>
+										<path d="M17 11C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13L7 13C6.44771 13 6 12.5523 6 12C6 11.4477 6.44772 11 7 11L17 11Z" fill="#00BA10"/>
+										</svg>
+
+										<svg id="advantagesYes" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M12 2C6.47727 2 2 6.47727 2 12C2 17.5227 6.47727 22 12 22C17.5227 22 22 17.5227 22 12C22 6.47727 17.5227 2 12 2ZM12 20.3333C7.39773 20.3333 3.66668 16.6023 3.66668 12C3.66668 7.39773 7.39773 3.66668 12 3.66668C16.6023 3.66668 20.3333 7.39773 20.3333 12C20.3333 16.6023 16.6023 20.3333 12 20.3333Z" fill="#00BA10"/>
+											<path d="M17 11C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13L7 13C6.44771 13 6 12.5523 6 12C6 11.4477 6.44772 11 7 11L17 11Z" fill="#00BA10"/>
+											<path d="M11 7C11 6.44772 11.4477 6 12 6C12.5523 6 13 6.44772 13 7V17C13 17.5523 12.5523 18 12 18C11.4477 18 11 17.5523 11 17V7Z" fill="#00BA10"/>
+										</svg>
+									</span>
+								</summary>
+								<p class="text">
+									Исследование штата Пенсильвания, проведенное в 2012 году и посвященное бесплодию, показало, что у женщин, снизивших вес, улучшилась сексуальная функция. Многие заметили ощутимые изменения в сексуальном желании и возбуждении. Кроме того, из-за избыточного веса и, как следствие, высокого уровня холестерина, в кровеносных сосудах накапливаются бляшки, которые затем замедляют приток крови к гениталиям, что, в свою очередь, затрудняет возбуждение и оргазм.
+								</p>
+							</details>
+							<details class="advantages">
+								<summary class="advantages__top">
+									<p class="advantages__name">Экономия</p>
+									<span class="advantages__icon">
+										<svg id="advantagesNo" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M12 2C6.47727 2 2 6.47727 2 12C2 17.5227 6.47727 22 12 22C17.5227 22 22 17.5227 22 12C22 6.47727 17.5227 2 12 2ZM12 20.3333C7.39773 20.3333 3.66668 16.6023 3.66668 12C3.66668 7.39773 7.39773 3.66668 12 3.66668C16.6023 3.66668 20.3333 7.39773 20.3333 12C20.3333 16.6023 16.6023 20.3333 12 20.3333Z" fill="#00BA10"/>
+										<path d="M17 11C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13L7 13C6.44771 13 6 12.5523 6 12C6 11.4477 6.44772 11 7 11L17 11Z" fill="#00BA10"/>
+										</svg>
+
+										<svg id="advantagesYes" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M12 2C6.47727 2 2 6.47727 2 12C2 17.5227 6.47727 22 12 22C17.5227 22 22 17.5227 22 12C22 6.47727 17.5227 2 12 2ZM12 20.3333C7.39773 20.3333 3.66668 16.6023 3.66668 12C3.66668 7.39773 7.39773 3.66668 12 3.66668C16.6023 3.66668 20.3333 7.39773 20.3333 12C20.3333 16.6023 16.6023 20.3333 12 20.3333Z" fill="#00BA10"/>
+											<path d="M17 11C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13L7 13C6.44771 13 6 12.5523 6 12C6 11.4477 6.44772 11 7 11L17 11Z" fill="#00BA10"/>
+											<path d="M11 7C11 6.44772 11.4477 6 12 6C12.5523 6 13 6.44772 13 7V17C13 17.5523 12.5523 18 12 18C11.4477 18 11 17.5523 11 17V7Z" fill="#00BA10"/>
+										</svg>
+									</span>
+								</summary>
+								<p class="text">
+									Исследование штата Пенсильвания, проведенное в 2012 году и посвященное бесплодию, показало, что у женщин, снизивших вес, улучшилась сексуальная функция. Многие заметили ощутимые изменения в сексуальном желании и возбуждении. Кроме того, из-за избыточного веса и, как следствие, высокого уровня холестерина, в кровеносных сосудах накапливаются бляшки, которые затем замедляют приток крови к гениталиям, что, в свою очередь, затрудняет возбуждение и оргазм.
+								</p>
+							</details>
+							<details class="advantages">
+								<summary class="advantages__top">
+									<p class="advantages__name">Снижение риска развития рака</p>
+									<span class="advantages__icon">
+										<svg id="advantagesNo" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M12 2C6.47727 2 2 6.47727 2 12C2 17.5227 6.47727 22 12 22C17.5227 22 22 17.5227 22 12C22 6.47727 17.5227 2 12 2ZM12 20.3333C7.39773 20.3333 3.66668 16.6023 3.66668 12C3.66668 7.39773 7.39773 3.66668 12 3.66668C16.6023 3.66668 20.3333 7.39773 20.3333 12C20.3333 16.6023 16.6023 20.3333 12 20.3333Z" fill="#00BA10"/>
+										<path d="M17 11C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13L7 13C6.44771 13 6 12.5523 6 12C6 11.4477 6.44772 11 7 11L17 11Z" fill="#00BA10"/>
+										</svg>
+
+										<svg id="advantagesYes" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M12 2C6.47727 2 2 6.47727 2 12C2 17.5227 6.47727 22 12 22C17.5227 22 22 17.5227 22 12C22 6.47727 17.5227 2 12 2ZM12 20.3333C7.39773 20.3333 3.66668 16.6023 3.66668 12C3.66668 7.39773 7.39773 3.66668 12 3.66668C16.6023 3.66668 20.3333 7.39773 20.3333 12C20.3333 16.6023 16.6023 20.3333 12 20.3333Z" fill="#00BA10"/>
+											<path d="M17 11C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13L7 13C6.44771 13 6 12.5523 6 12C6 11.4477 6.44772 11 7 11L17 11Z" fill="#00BA10"/>
+											<path d="M11 7C11 6.44772 11.4477 6 12 6C12.5523 6 13 6.44772 13 7V17C13 17.5523 12.5523 18 12 18C11.4477 18 11 17.5523 11 17V7Z" fill="#00BA10"/>
+										</svg>
+									</span>
+								</summary>
+								<p class="text">
+									Исследование штата Пенсильвания, проведенное в 2012 году и посвященное бесплодию, показало, что у женщин, снизивших вес, улучшилась сексуальная функция. Многие заметили ощутимые изменения в сексуальном желании и возбуждении. Кроме того, из-за избыточного веса и, как следствие, высокого уровня холестерина, в кровеносных сосудах накапливаются бляшки, которые затем замедляют приток крови к гениталиям, что, в свою очередь, затрудняет возбуждение и оргазм.
+								</p>
+							</details>
+						</div>
+						<div class="part__bottom">
+							<button class="btn btn_next btn_middle">Получить</button>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+	</div>
+	
+	
+
+	<!-- Scripts -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<!-- Jquery UI -->
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+	<!-- JSAP -->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+
+
+	<!-- Jquery Tuch punch -->
+	<!-- <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script> -->
+
+	<script src="js/script.js"></script>
+
+</body>
+</html>
